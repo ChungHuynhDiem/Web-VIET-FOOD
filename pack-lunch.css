@@ -61,7 +61,7 @@ header h1{
 }
 
 .photo-food {
-    height: 500px;
+    height: 400px;
     width: auto;
     border-radius: 35px;
 }
@@ -344,4 +344,97 @@ input[type="time"].textform {
 .button-filter input[type="submit"].active {
     transform: scale(1.20);
     background-color: rgb(25, 245, 25);
+}
+
+.intro-combo {
+    text-align: center;
+    font-size: 30px;
+}
+
+.combo-lunch {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 10px;
+}
+
+.block-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items:center
+}
+
+
+.img-icon {
+    width: 6rem;
+}
+
+.img-icon:hover {
+    transform: scale(1.2) translateY(-10px);
+}
+
+.name-icon {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.note-combo {
+    font-size: 13px;
+    margin: 0;
+}
+
+.messange-box {
+    display: none;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 3px solid black;
+    font-size: 30px;
+}
+
+#message-text
+{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.block-button-massage
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#button-messange {
+    width: 30%;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+#button-messange:hover {
+    background-color: black;
+    color: white;
+}
+
+.icon-massage-box{
+    width: 20px;
+    height: auto;
 }

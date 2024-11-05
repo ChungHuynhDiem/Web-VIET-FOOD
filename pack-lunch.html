@@ -19,6 +19,93 @@
         </nav>
     </header>
     <main>
+        <section class="combo">
+            <h2 class="intro-combo">Доступные для заказа комбо</h2>
+            <div class="combo-lunch">
+                <div class="option">
+                    <div class="block-icon">
+                        <img src="icons/soup.png" alt="soup" class="img-icon">
+                        <p class="name-icon">Суп</p>
+                    </div>
+                    <div class="block-icon">
+                        <img src="icons/main.png" alt="mainfood" class="img-icon">
+                        <p class="name-icon">Главное блюдо</p>
+                    </div>
+                    <div class="block-icon">
+                        <img src="icons/salad.png" alt="salad" class="img-icon">
+                        <p class="name-icon">Салат</p>
+                    </div>
+                    <div class="block-icon">
+                        <img src="icons/drink.png" alt="drink" class="img-icon">
+                        <p class="name-icon">Напиток</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <div class="block-icon">
+                        <img src="icons/soup.png" alt="soup" class="img-icon">
+                        <p class="name-icon">Суп</p>
+                    </div>
+                    <div class="block-icon">
+                        <img src="icons/main.png" alt="main food" class="img-icon">
+                        <p class="name-icon">Главное блюдо</p>
+                    </div>
+                    <div class="block-icon">
+                        <img src="icons/drink.png" alt="drink" class="img-icon">
+                        <p class="name-icon">Напиток</p>
+                    </div>
+                </div>
+                
+                <div class="option">
+                    <div class="block-icon">
+                        <img src="icons/soup.png" alt="soup" class="img-icon">
+                        <p class="name-icon">Суп</p>
+                    </div>
+                    <div class="block-icon">
+                        <img src="icons/salad.png" alt="salad" class="img-icon">
+                        <p class="name-icon">Салат</p>
+                    </div>
+                    <div class="block-icon">
+                        <img src="icons/drink.png" alt="drink" class="img-icon">
+                        <p class="name-icon">Напиток</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <div class="block-icon">
+                        <img src="icons/main.png" alt="mainfood" class="img-icon">
+                        <p class="name-icon">Главное блюдо</p>
+                    </div>
+                    <div class="block-icon">
+                        <img src="icons/salad.png" alt="salad" class="img-icon">
+                        <p class="name-icon">Салат</p>
+                    </div>
+                    <div class="block-icon">
+                        <img src="icons/drink.png" alt="drink" class="img-icon">
+                        <p class="name-icon">Напиток</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <div class="block-icon">
+                        <img src="icons/main.png" alt="mainfood" class="img-icon">
+                        <p class="name-icon">Главное блюдо</p>
+                    </div>
+                    <div class="block-icon">
+                        <img src="icons/drink.png" alt="drink" class="img-icon">
+                        <p class="name-icon">Напиток</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <div class="block-icon">
+                        <img src="icons/desert.png" alt="dessert" class="img-icon">
+                        <p class="name-icon">Десерт</p>
+                        <i class="note-combo">(Можно добавить к любому заказу)</i>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="soup-food FilterProcess">
             <h2 class="kind-food">Выберите суп</h2>
             <div class="filter">
@@ -313,12 +400,21 @@
             </section>
 
     </main>
+
+    <!-- hop thoai thong báo lỗi -->
+    <div class="messange-box">
+        <p id="message-text">thông báo lỗi</p>
+        <div class="block-button-massage">
+            <button type="button" id="button-messange">Окей<img src="icons/ok.png" alt="ok" class="icon-massage-box"></button>
+        </div>
+    </div>
+
     <footer id="contacts">
         <p>
           Позвонить нам: <a href="tel:+7-000-000-00-00">+7-000-000-00-00</a>
           &nbsp;
-          <a href="https://www.facebook.com" target="_blank" class="icon"><i class="fa-brands fa-facebook"></i></a>
-          <a href="https://web.telegram.org/a/" target="_blank" class="icon"><i class="fa-brands fa-telegram"></i></a>
+          <a href="https://www.facebook.com" target="_blank" class="icon" rel="noopener" alt="icon facebook" title="Visit Facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://web.telegram.org/a/" target="_blank" class="icon" rel="noopener" alt="icon facebook" title="Visit Telegram"><i class="fa-brands fa-telegram"></i></a>
         </p>
     </footer> 
 
@@ -326,5 +422,6 @@
     <script src="DisplayFood.js"></script>
     <script src="MakeOder.js"></script>
     <script src="Filter.js"></script>
+    <script src="CheckForm.js"></script>
 </body>
 </html>

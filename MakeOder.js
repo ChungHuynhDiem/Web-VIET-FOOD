@@ -98,19 +98,5 @@ function renderOrder() {
     updateHiddenFields();  // Update hidden inputs every time the order changes
 }
 
-const form = document.querySelector('.form-order');
-form.addEventListener('submit', function(event) {
-    const soupValue = document.getElementById('hidden-soup').value;
-    const mainDishValue = document.getElementById('hidden-main-dish').value;
-    const drinkValue = document.getElementById('hidden-drink').value;
-    const saladstarterValue = document.getElementById('hidden-saladstarter').value;
-    const dessertValue = document.getElementById('hidden-dessert').value;
-    // Check if the inputs have values
-    if (!soupValue || !mainDishValue || !drinkValue || !saladstarterValue || !dessertValue) {
-        event.preventDefault(); // Prevent form submission
-        alert("Пожалуйста, выберите суп, главное блюдо и напиток."); // Notice to users
-    }
-});
-
 
 addClickListeners();
