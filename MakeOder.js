@@ -99,4 +99,12 @@ function renderOrder() {
 }
 
 
-addClickListeners();
+// addClickListeners();
+
+
+const AwaitAddClickListeners = async () => {
+    await DataFood();
+    addClickListeners();
+}
+
+AwaitAddClickListeners();
