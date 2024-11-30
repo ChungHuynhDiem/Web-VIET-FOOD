@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="pack-lunch.css">
+    <link rel="stylesheet" href="PlacingOder.css">
     <title>Home web page - Vietfood Company - Lunch</title>
 </head>
 
@@ -16,8 +16,8 @@
         <h1>Viet Food</h1>
         <nav class="nav1">
             <a href="index.html">О нас</a>
-            <a href="#lunch" id="main-page">Собрать ланч</a>
-            <a href="PlacingOder.html">Оформить заказ</a>
+            <a href="pack-lunch.html">Собрать ланч</a>
+            <a href="#oder" id="main-page">Оформить заказ</a>
             <a href="#contacts">Контакты</a>
         </nav>
     </header>
@@ -110,176 +110,18 @@
             </div>
         </section>
         <section class="soup-food FilterProcess">
-            <h2 class="kind-food">Выберите суп</h2>
-            <div class="filter">
-                <div class="button-filter" id="fish-soups">
-                    <input type="submit" value="рыбный" data-kind="fish">
-                </div>
-                <div class="button-filter" id="meat-soups">
-                    <input type="submit" value="мясной" data-kind="meat">
-                </div>
-                <div class="button-filter" id="vegetarian-soups">
-                    <input type="submit" value="вегетарианский" data-kind="veg">
-                </div>
-            </div>
+            <h2 class="kind-food">Состав заказа</h2>
             <div class="block-food" data-array="array-soups">
-                <!-- <div class="food">
-                    <div class="photo"><img src="img/soup1.jpg" alt="Pho" class="photo-food"></div>
-                    <p class="price">450₽</p>
-                    <p class="name-food">Фо Бо</p>
-                    <p class="weight-volume">600г</p>
-                    <div class="button">
-                        <input type="submit" value="Добавить">
-                    </div>
-                </div>
-                <div class="food">
-                    <div class="photo"><img src="img/soup2.jpg" alt="Tom ym" class="photo-food"></div>
-                    <p class="price">480₽</p>
-                    <p class="name-food">Том Ям</p>
-                    <p class="weight-volume">650г</p>
-                    <div class="button">
-                        <input type="submit" value="Добавить">
-                    </div>
-                </div>
-                <div class="food">
-                    <div class="photo"><img src="img/soup3.jpg" alt="crab soup" class="photo-food"></div>
-                    <p class="price">430₽</p>
-                    <p class="name-food">Крабовый Суп</p>
-                    <p class="weight-volume">500г</p>
-                    <div class="button">
-                        <input type="submit" value="Добавить">
-                    </div>
-                </div> -->
             </div>
         </section>
 
-        <section class="main-food FilterProcess">
-            <h2 class="kind-food">Выберите основное блюдо</h2>
-            <div class="filter">
-                <div class="button-filter" id="fish-maindish">
-                    <input type="submit" value="рыбное" data-kind="fish">
-                </div>
-                <div class="button-filter" id="meat-maindish">
-                    <input type="submit" value="мясное" data-kind="meat">
-                </div>
-                <div class="button-filter" id="vegetarian-maindish">
-                    <input type="submit" value="вегетарианское" data-kind="veg">
-                </div>
-            </div>
-            <div class="block-food" data-array="array-maindishes">
-                <!-- <div class="food">
-                    <div class="photo"><img src="img/mainfood1.jpg" alt="fried rice" class="photo-food"></div>
-                    <p class="price">550₽</p>
-                    <p class="name-food">Жареный Рис С  Морепродуктами</p>
-                    <p class="weight-volume">700г</p>
-                    <div class="button">
-                        <input type="submit" value="Добавить">
-                    </div>
-                </div>
-                <div class="food">
-                    <div class="photo"><img src="img/mainfood2.jpg" alt="fried noodles" class="photo-food"></div>
-                    <p class="price">520₽</p>
-                    <p class="name-food">Жареная Лапша С Говядиной</p>
-                    <p class="weight-volume">700г</p>
-                    <div class="button">
-                        <input type="submit" value="Добавить">
-                    </div>
-                </div>
-                <div class="food">
-                    <div class="photo"><img src="img/mainfood3.jpg" alt="sweet and sour chicken rice" class="photo-food"></div>
-                    <p class="price">600₽</p>
-                    <p class="name-food">Кисло-Сладкий Куриный С Рис</p>
-                    <p class="weight-volume">700г</p>
-                    <div class="button">
-                        <input type="submit" value="Добавить">
-                    </div>
-                </div> -->
-            </div>
-        </section>
-
-        <section class="drink FilterProcess">
-            <h2 class="kind-food">Выберите напиток</h2>
-            <div class="filter">
-                <div class="button-filter" id="drink-hot">
-                    <input type="submit" value="горячий" data-kind="hot">
-                </div>
-                <div class="button-filter" id="drink-cold">
-                    <input type="submit" value="холодный" data-kind="cold">
-                </div>
-            </div>
-            <div class="block-food" data-array="array-drinks">
-                <!-- <div class="food">
-                    <div class="photo"><img src="img/drink1.jpg" alt="drink1" class="photo-food"></div>
-                    <p class="price">400₽</p>
-                    <p class="name-food">Авокадо Шейк</p>
-                    <p class="weight-volume">500 мл</p>
-                    <div class="button">
-                        <input type="submit" value="Добавить">
-                    </div>
-                </div>
-                <div class="food">
-                    <div class="photo"><img src="img/drink2.jpg" alt="drink2" class="photo-food"></div>
-                    <p class="price">400₽</p>
-                    <p class="name-food">Манго Шейк</p>
-                    <p class="weight-volume">500 мл</p>
-                    <div class="button">
-                        <input type="submit" value="Добавить">
-                    </div>
-                </div>
-                <div class="food">
-                    <div class="photo"><img src="img/drink3.jpg" alt="drink3" class="photo-food"></div>
-                    <p class="price">400₽</p>
-                    <p class="name-food">Драконий Фрукт Шейк</p>
-                    <p class="weight-volume">500 мл</p>
-                    <div class="button">
-                        <input type="submit" value="Добавить">
-                    </div>
-                </div> -->
-            </div>
-        </section>
-
-        <section class="salad-starter FilterProcess">
-            <h2 class="kind-food">Выберите салаты и стартеры</h2>
-            <div class="filter">
-                <div class="button-filter" id="fish-salad">
-                    <input type="submit" value="рыбный" data-kind="fish">
-                </div>
-                <div class="button-filter" id="meat-salad">
-                    <input type="submit" value="мясной" data-kind="meat">
-                </div>
-                <div class="button-filter" id="vegetarian-salad">
-                    <input type="submit" value="вегетарианский" data-kind="veg">
-                </div>
-            </div>
-            <div class="block-food" data-array="array-saladstarters">
-
-            </div>
-            </div>
-        </section>
-
-        <section class="desserts FilterProcess">
-            <h2 class="kind-food">Выберите десерты</h2>
-            <div class="filter">
-                <div class="button-filter" id="small-portion">
-                    <input type="submit" value="маленькая порция" data-kind="small">
-                </div>
-                <div class="button-filter" id="medium-portion">
-                    <input type="submit" value="средняя порция" data-kind="medium">
-                </div>
-                <div class="button-filter" id="lagre-portion">
-                    <input type="submit" value="большая порция" data-kind="large">
-                </div>
-            </div>
-            <div class="block-food" data-array="array-desserts">
-
-            </div>
-        </section>
-
-        <!-- <section class="main-order">
+        <section class="main-order">
             <h2 class="place-order">Сделать заказ</h2>
-            <form action="https://httpbin.org/post" method="post" class="form-order">
+            <form class="form-order">
+                <!-- action="https://httpbin.org/post" method="post" -->
                 <div class="customer-order">
                     <p class="name-oder">Ваш заказ</p>
+
                     <div class="order-section" id="order-section">Ничего не выбрано</div>
                     <div class="table-choose" id="table-choose">
                         <div class="choose-food">
@@ -369,36 +211,41 @@
                         <p class="lol"><i>Доступное время доставкм с 8:00 до 22:00</i></p>
                         <div class="buttons">
                             <div class="form-submit">
-                                <input type="reset" value="Сбросить">
+                                <input type="reset" value="Сбросить" id="remove-order">
                             </div>
                             <div class="form-submit">
-                                <input type="submit" value="Отправить">
+                                <input type="submit" value="Отправить" id="submit-order">
                             </div>
                         </div>
                     </div>
 
                 </div>
             </form>
-        </section> -->
-
-
-        <section class="totalorder">
-            <div id="order-summary">
-                <div id="total-cost">Итого: <span id="money">0</span> ₽</div>
-                <a href="PlacingOder.html" id="checkout-link" class="disabled">Перейти к оформлению</a>
-            </div>
         </section>
 
     </main>
 
-    <!-- hop thoai thong báo lỗi -->
+    <!-- hop thoai thong báo lỗi khi chọn combo -->
     <div class="messange-box">
         <p id="message-text">thông báo lỗi</p>
         <div class="block-button-massage">
-            <button type="button" id="button-messange">Окей<img src="icons/ok.png" alt="ok"
+            <a href="pack-lunch.html" class="button-a"> <button type="button" id="button-messange-failure" class="button-messange">Окей<img
+                        src="icons/ok.png" alt="ok" class="icon-massage-box"></button></a>
+
+            <button type="button" id="button-messange-success" class="button-messange">Окей<img src="icons/ok.png" alt="ok"
                     class="icon-massage-box"></button>
         </div>
     </div>
+
+    <!-- Thông báo lỗi khi gửi dữ liệu -->
+    <!-- <div class="messange-box" style="display: none;">
+        <p id="message-text">Đã xảy ra lỗi khi gửi dữ liệu. Vui lòng thử lại sau.</p>
+        <div class="block-button-massage">
+            <button type="button" id="button-messange">Ok<img src="icons/ok.png" alt="ok"
+                    class="icon-massage-box"></button>
+        </div>
+    </div> -->
+
 
     <footer id="contacts">
         <p>
@@ -413,11 +260,9 @@
 
     <script src="loadDishes.js"></script>
     <script src="ArrayFood.js"></script>
-    <script src="DisplayFood.js"></script>
-    <script src="MakeOder.js"></script>
-    <script src="Filter.js"></script>
-    <script src="CheckForm-PackLunch.js"></script>
-
-</body>
+    <script src="DisplayFood-PlacingOder.js"></script>
+    <script src="MakeOder-PlacingOder.js"></script>
+    <script src="CheckFormAndSendForm.js"></script>
+    <script src="PostData.js"></script>
 
 </html>
