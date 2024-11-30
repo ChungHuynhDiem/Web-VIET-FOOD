@@ -41,6 +41,5 @@
 //     {keyword: 'Mixed Fruit', name: 'Смешанные Фрукты', price: 200, category: 'dessert', count: '200г', image: 'img/dessert4.jpg', kind:'small'},
 //     {keyword: 'Jelly', name: 'Желе', price: 200, category: 'dessert', count: '200г', image: 'img/dessert5.jpg', kind:'small'},
 //     {keyword: 'Coconut Cream', name: 'Кокосовый Крем', price: 400, category: 'dessert', count: '400г', image: 'img/dessert6.jpg', kind:'lagre'},
-]
 
 // {keyword: '', name: '', price: , category: '', count: '', image: '', kind:'',},
